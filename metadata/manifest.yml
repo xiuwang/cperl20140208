@@ -1,6 +1,6 @@
 ---
-Name: perl
-Cartridge-Short-Name: PERL
+Name: cperl
+Cartridge-Short-Name: CPERL
 Display-Name: Perl 5.10
 Description: Perl is a high-level, general-purpose, interpreted, dynamic programming
   language. Dynamic content produced by Perl scripts can be served in response to
@@ -11,7 +11,7 @@ License-Url: http://dev.perl.org/licenses/
 Vendor: perl.org
 Cartridge-Version: 0.0.9
 Compatible-Versions: []
-Cartridge-Vendor: redhat
+Cartridge-Vendor: chunchen
 Categories:
 - service
 - perl
@@ -52,3 +52,10 @@ Endpoints:
     Backend: ''
     Options:
       health: true
+Install-Build-Required: false
+#Source-Url: file:///root/cperl20140208/
+#Source-Md5: a6563fcd4cff2e16e75510faa51d59f69bddd33b
+#Source-Url: https://github.com/chunyunchen/cperl20140208/raw/master/cperl20140208.tar.gz
+#Source-Url: https://github.com/chunyunchen/cperl20140208/raw/master/cperl20140208.zip
+Source-Url: https://github.com/chunyunchen/cperl20140208.git
+#Source-Url: git://github.com/chunyunchen/cperl20140208.git
