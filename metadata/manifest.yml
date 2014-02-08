@@ -56,5 +56,5 @@ Install-Build-Required: false
 #Source-Md5: a6563fcd4cff2e16e75510faa51d59f69bddd33b
 #Source-Url: https://github.com/chunyunchen/cperl20140208/raw/master/cperl20140208.tar.gz
 #Source-Url: https://github.com/chunyunchen/cperl20140208/raw/master/cperl20140208.zip
-Source-Url: https://github.com/chunyunchen/cperl20140208.git
+Source-Url: http://github.com/chunyunchen/cperl20140208.git
 #Source-Url: git://github.com/chunyunchen/cperl20140208.git
