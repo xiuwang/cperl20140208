@@ -1,5 +1,5 @@
 #!/bin/bash -eu
-
+date > ${OPENSHIFT_DATA_DIR}/$key
 echo "Building Perl cartridge"
 
 if [ -f ${OPENSHIFT_REPO_DIR}.openshift/markers/force_clean_build ]
